@@ -1,0 +1,8 @@
+fileptr=open("system.txt","a")
+str=input("Enter any text: ")
+fileptr.write(str)
+fileptr.close()
+ptr=open("system.txt","r")
+x=ptr.read()
+print(x)
+ptr.close()
